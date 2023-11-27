@@ -7,6 +7,13 @@
 
 PyQt example of using fine-tuned resnet50 model for image classficiation of user-defined image (anteater, hyena)
 
+## What is fine-tuning?
+You can find it in the Internet. Well..
+
+If you want to understand the fine-tuning, i think you have to know the concept of the transfer learning first.
+
+Fine-tuning is process that making any model to recognize or process the user-defined dataset. See the kaggle notebook in the How To Run section to know how it works.
+
 ## How to Run
 Assuming you already had the pytorch and torchvision.
 
