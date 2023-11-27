@@ -7,6 +7,9 @@
 
 PyQt example of using fine-tuned resnet50 model for image classficiation of user-defined image (anteater, hyena)
 
+## What is ResNet50?
+ResNet50 is an image classification model. While it is excellent on its own, it is often used in creating custom models due to its flexibility in transfer learning and fine-tuning.
+
 ## What is fine-tuning?
 You can find it in the Internet. Well..
 
