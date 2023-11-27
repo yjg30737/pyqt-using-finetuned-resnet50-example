@@ -1,5 +1,5 @@
 # pyqt-using-finetuned-resnet50-example
-PyQt exapmle of using fine-tuned resnet50 model for image classficiation of user-defined image (anteater, hyena)
+PyQt example of using fine-tuned resnet50 model for image classficiation of user-defined image (anteater, hyena)
 
 ## How to Run
 Assuming you already had the pytorch and torchvision.
