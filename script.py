@@ -16,7 +16,7 @@ class ImagePredictor:
     def load_model(self, model_path):
         model = models.resnet50(pretrained=True).to(self.device)
         num_ftrs = model.fc.in_features
-        model.fc = nn.Linear(num_ftrs, 2).to(self.device)
+        model.fc = nn.Linear(num_ftrs, len(classes)).to(self.device)
         model.load_state_dict(torch.load(model_path, map_location=self.device))
         model.eval()
         return model
