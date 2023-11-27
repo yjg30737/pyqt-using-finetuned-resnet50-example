@@ -1,4 +1,10 @@
 # pyqt-using-finetuned-resnet50-example
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/55078043/229002952-9afe57de-b0b6-400f-9628-b8e0044d3f7b.png" width="150px" height="150px"><br/><br/>
+  
+  [![](https://dcbadge.vercel.app/api/server/cHekprskVE)](https://discord.gg/cHekprskVE)
+</div>
+
 PyQt example of using fine-tuned resnet50 model for image classficiation of user-defined image (anteater, hyena)
 
 ## How to Run
