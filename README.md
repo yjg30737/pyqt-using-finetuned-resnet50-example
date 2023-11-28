@@ -17,15 +17,20 @@ If you want to understand the fine-tuning, i think you have to know the concept 
 
 Fine-tuning is process that making any model to recognize or process the user-defined dataset. See the kaggle notebook in the How To Run section to know how it works.
 
-## How to Run
-Assuming you already had the pytorch and torchvision.
+## Requirements
+* PyQt5 >= 5.14
+* torch
+* torchvision
+* numpy
 
+## How to Run
 1. Get the fine-tuned model from this <a href="https://www.kaggle.com/code/yoonjunggyu/pytorch-fine-tuning-resnet50/notebook">kaggle notebook</a>.
 2. git clone ~
 3. Put the model file (result.pth) into the root folder of this repo.
-4. python main.py
-5. Type the image url of anteater or hyena.
-6. Press "Run" 
+4. pip install -r requirements.txt
+5. python main.py
+6. Type the image url of anteater or hyena.
+7. Press "Run" 
 
 ## Preview
 ![image](https://github.com/yjg30737/pyqt-using-finetuned-resnet50-example/assets/55078043/1884cb11-5f1e-4140-92d3-6e9f25790c50)
